@@ -1,0 +1,9 @@
+<view>
+    <columns>
+<column name="model" numcolumns="2" order="115">
+    <widget type="select" fieldname="idfile" required="true">
+        <values source="attached_files_rel" fieldcode="idfile" fieldtitle="model"/>
+    </widget>
+</column>
+</columns>
+</view>
